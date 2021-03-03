@@ -1,0 +1,88 @@
+<html lang="fr">
+   <head>
+     <meta charset="UTF-8">
+     <title>QUIZ ANTHONY</title>
+        <link rel="stylesheet" href="style.css">          
+        
+        <script>
+          window.console = window.console || function(t) {};
+        </script>
+        
+          
+          
+          <script>
+          if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+          }
+        </script>
+        
+        
+        </head>
+        
+        <body translate="no">
+          <h1>Quiz </h1>
+        <div class="quiz-container">
+          <div id="quiz">
+            <div class="slide">
+                    <div class="question"> 1.Quel est ma couleur préferer? </div>
+                    <div class="answers" style="color: lightgreen;"> <label>
+                      <input type="réponse" name="question0" value="a">
+                      a :Rouge
+                    </label><label>
+                      <input type="réponse" name="question0" value="b">
+                      b : Bleu
+                    </label><label>
+                      <input type="réponse" name="question0" value="c">
+                      c : Vert
+                    </label> </div>
+                  </div>
+                  <div class="slide active-slide">
+                    <div class="question">2.Quel est ma marque de vêtement préferer ? </div>
+                    <div class="answers" style="color: lightgreen;"> <label>
+                      <input type="réponse" name="question1" value="a">
+                      a :Adidas
+                    </label><label>
+                      <input type="réponse" name="question1" value="b">
+                      b : Nike
+                    </label><label>
+                      <input type="réponse" name="question1" value="c">
+                      c : Champion
+                    </label> </div>
+                  </div>
+                  <div class="slide">
+                    <div class="question"> 3.Ma petite soeur s'appelle ? </div>
+                    <div class="answers" style="color: lightgreen;"> <label>
+                      <input type="radio" name="question2" value="a">
+                      a : Eileen
+                    </label><label>
+                      <input type="radio" name="question2" value="b">
+                      b : Aileen
+                    </label><label>
+                      <input type="radio" name="question2" value="c">
+                      c : Ayleen
+                    </label>
+                    </div>
+                  </div></div>
+        </div>
+        
+        <button id="next" style="display: inline;">Next Question</button>
+        <button id="submit" style="display: none;">Submit Quiz</button>
+        <div id="results"></div>
+            <script src=""></script>
+            <script language="JavaScript">
+              function getScore(form) {
+
+              }
+              </script>
+              
+                
+                <span id="score"></span>
+          
+              <script id="rendered-js" src="script.js"> </script>
+        
+          
+        
+                
+        
+         
+        </body></html>
