@@ -67,6 +67,13 @@
           margin-top: 40px;
         }
 
+ @media (max-device-width: auto) and (orientation: landscape) {
+          html {
+           -webkit-text-size-adjust: 100%;
+           -ms-text-size-adjust: 100%;
+          }
+        }
+
         @media (max-width: auto) {
           * {
             box-sizing: border-box;
@@ -149,10 +156,5 @@
           }
         }
 
-        @media (max-device-width: auto) and (orientation: landscape) {
-          html {
-           -webkit-text-size-adjust: 100%;
-           -ms-text-size-adjust: 100%;
-          }
-        }
+       
         
