@@ -147,7 +147,7 @@
 	
 	/* Un message personnalisé */
 
-	body:before {
+	body:before { 
 		content: "Version mobile du site";
 		display: block;
 		text-align: center;
