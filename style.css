@@ -149,7 +149,7 @@
           }
         }
 
-        @media (max-device-width: auto) and (orientation: landscape) {
+        @media (max-device-width: auto) and (orientation: portrait) {
           html {
            -webkit-text-size-adjust: 100%;
            -ms-text-size-adjust: 100%;
